@@ -1,0 +1,111 @@
+.navbar{
+    position: relative;
+    display: flex;
+    height: 78px;
+    background: #0087e3;
+    width: 100%;
+    box-shadow: 0px 5px 7px #cec9c9;
+}
+.websiteName{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px;
+    left: 10%;
+    position: absolute;
+  }
+  
+.locationContainer{
+    position: absolute;
+    margin: 10px;
+    right: 20%;
+}
+.locationContainer .locationBtn{
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #095b93;
+}
+.locationContainer:hover > ul{
+    display: block;
+}
+.locationContainer > ul{
+    display: none;
+    position: absolute;
+    width: 150px;
+    padding-inline-start: 0;
+    box-shadow: 0px 10px 15px #0000001f;
+    margin: 0px;
+    background: #fff;
+    padding: 0px 11px;
+}
+
+li:hover > ul {
+    display: block;
+}
+ul ul {
+    position: absolute;
+    display: none;
+    left:172px;
+    width: 150px;
+    margin-top: -25px;
+    padding: 0 10px;
+    background-color: #fff;
+    box-shadow: 0px 10px 15px #0000001f;
+    z-index:1;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+.locationContainer li{
+    list-style: none;
+    padding: 7px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.locationContainer svg{
+    vertical-align: top;
+}
+.locationContainer ul svg{
+    position: absolute;
+    right: 0;
+}
+
+/* breadcrumb css started */
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li span {
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li span:hover {
+    color: #01447e;
+    text-decoration: none;
+  }
+
+  /* breadcrumb navigation ended */

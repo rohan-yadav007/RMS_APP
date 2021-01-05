@@ -1,0 +1,11 @@
+footer{
+    background: #262626;
+    text-align: center;
+    color:#fff;
+    position: relative;
+    width: 100%;
+}
+
+footer div{
+    padding: 20px;
+}

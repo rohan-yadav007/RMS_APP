@@ -1,0 +1,14 @@
+.equipmentsCatalogue .container_wrapper{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.equipmentsCatalogue main{
+    min-height: 90vh;
+}
+.breadcrumb{
+    padding: 20px;
+}
+
